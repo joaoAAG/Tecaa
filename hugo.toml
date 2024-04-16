@@ -18,3 +18,10 @@ title = 'My New Hugo Site'
     url = "/docs/"
     identifier = "docs"
     weight = 10
+
+
+relativeURLs = true
+
+[markup]
+  [markup.goldmark]
+	renderHooks.image.enableDefault = true
